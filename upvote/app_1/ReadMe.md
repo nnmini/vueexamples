@@ -8,7 +8,9 @@
 1) Create a View in HTML using CSS
 2) Once View is approved then make it as data driven by binding data using Vue.
 3) Example: define below using your own CSS.
-![Output](example1.png)
+
+![Output](example1.PNG)
+
 4) Once that is done, then apply Vue concepts.
 
 In this app,
