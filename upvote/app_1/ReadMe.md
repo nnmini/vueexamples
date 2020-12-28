@@ -1,7 +1,6 @@
 
 <h1 align="center">APP1</h1>
 
-
 <br>
 
 ## :dart: Thinking Process ##
