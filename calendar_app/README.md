@@ -20,5 +20,7 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
+### Output
+
+![Output](Output.png)
 
