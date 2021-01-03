@@ -22,5 +22,5 @@ npm run lint
 
 ### Output
 
-![Output](Output.png)
+![Output](Output.PNG)
 
