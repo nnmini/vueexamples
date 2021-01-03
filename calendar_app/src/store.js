@@ -9,7 +9,12 @@ import {seedData} from './seed'
     },
     setActiveDay(dayId){
         this.state.seedData.map((dayObj)=>dayObj.id===dayId?dayObj.active=true:dayObj.active=false)
+    },
+
+    getDay(dayId){
+        return this.state.seedData.find(day=>day.id===dayId)
     }
+    
 
 
 }

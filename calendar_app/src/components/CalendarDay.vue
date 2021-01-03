@@ -9,7 +9,7 @@
                    <div class="day-event" style="background-color: rgb(153, 255, 153)">
                 <span class="has-text-centered details">{{event.details}}</span> 
                 <div class="has-text-centered icons"><i class="fa fa-pencil-square edit-icon"></i> 
-                  <i class="fa fa-trash-o delete-icon"></i>
+                  <i class="fa fa-trash-o delete-icon" @click="deleteEvent(day.id,event.details)"></i>
                 </div>
                    </div>
               </div>
@@ -29,6 +29,11 @@ export default {
       setActiveDay(dayId){
           store.setActiveDay(dayId)
 
+      },
+      deleteEvent(dayId,eventDetails){
+         const day= store.getDay(dayId);
+         const removeIndex = day.events.findIndex(event =>event.details===eventDetails)
+            day.events.splice(removeIndex,1)
       }
   }
 }
