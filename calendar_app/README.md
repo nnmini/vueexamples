@@ -23,7 +23,9 @@ npm run lint
 ### what you learn
 1) Managing data between sibling components using Global event bus. How to use props in components.
 2) how to use @click event
-3) how to remove item from array using ES6
+3) how to use v-model
+4) ES6 functions example: remove item from array, add item to array.
+
 
 
 ### Output
